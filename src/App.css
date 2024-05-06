@@ -1,0 +1,62 @@
+* {/*base da pagina*/
+ margin: 0;
+ padding: 0;
+}
+.sessao{ /* É a parte do cabecalho e do livro de destaque abaixo*/
+  display: flex;
+  padding: 20px 50px;
+  height: 300px;
+}
+
+footer{/* Rodape*/
+  background-color: #05668d;
+  color: aliceblue;
+  padding: 20px 50px;
+  display: flex;
+  margin: auto;
+}
+
+.evento{/*propiedades eventos*/
+  width: 25vw;
+  padding: 10px 40px;  
+}
+
+h2 {
+  padding: 25px 1px;
+}
+
+.galeria{ /* Centraliza o titulo da Galeria*/
+  display: flex;
+  justify-content: center;
+}
+
+.container{ /* Galeria */
+  align-items: center;
+  display: flex;
+  object-fit: cover;
+  padding: 50px 100px;
+  gap: 20px; 
+  flex-wrap: wrap;
+}
+
+.container img{/*livros disponiveis*/
+  display: flex;
+  flex-direction: column;
+  width: 27vw;
+  margin-top: 2ch;
+  
+}
+
+.header{/*Cabecalho*/
+  background-color: #05668d;
+  padding: 20px 50px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+
+}
+
+
+header img{/* Liro destaque*/
+  width: 120px;
+}
